@@ -1,3 +1,5 @@
+package basics;
+
 public class TwoDArray {
     public static void main(String[] args) {
         int grid[][]={{1,2,3},

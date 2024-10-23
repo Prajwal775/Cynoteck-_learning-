@@ -1,3 +1,5 @@
+package basics;
+
 public class PrimitiveDatatype {
     public static void main(String args[]){
 
