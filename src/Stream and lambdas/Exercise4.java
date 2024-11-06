@@ -1,12 +1,12 @@
-package FunctionalProgramming;
+package Advance.FunctionalProgramming;
 
 import java.util.List;
 
-public class Exercise3 {
+public class Exercise4 {
 
     public static void main(String[] args) {
 
-        List<String> course = List.of("mca is better","bCa is good","btech","bsc","bcom","b.ed");
+        List<String> course = List.of("mca is better","bCa is good","btech","bsc","bcom","b.ed","it");
         ;
         printString(course);
 
@@ -15,7 +15,7 @@ public class Exercise3 {
     private static void printString(List<String> courses)
     {
         courses.stream()
-                .filter(course-> course.toLowerCase().contains("bca"))//to lowercase checks for case-insensitive match
+                .filter(course-> course.length()<=4)
                 .forEach(course -> System.out.print(course+ " "));
     }
 

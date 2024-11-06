@@ -1,4 +1,4 @@
-package FunctionalProgramming;
+package Advance.FunctionalProgramming;
 
 import java.util.List;
 
